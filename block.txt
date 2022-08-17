@@ -428,8 +428,6 @@ planks_spruce.png
 spruce_planks.png
 portal.png
 nether_portal.png
-
-
 potatoes_stage_0.png
 beetroots_stage0.png
 potatoes_stage_1.png
@@ -442,8 +440,6 @@ prismarine_dark.png
 dark_prismarine.png
 prismarine_rough.png
 prismarine.png
-
-
 pumpkin_face_off.png
 carved_pumpkin.png
 pumpkin_face_on.png
@@ -496,14 +492,6 @@ reeds.png
 sugar_cane.png
 repeater_off.png
 repeater.png
-
-
-
-
-
-
-
-
 sandstone_carved.png
 chiseled_sandstone.png
 sandstone_normal.png
