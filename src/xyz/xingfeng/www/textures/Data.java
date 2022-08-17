@@ -44,6 +44,9 @@ public class Data implements Runnable{
                 if (new File(s + fileDo.tiqu(i)).exists()) {
                     new File(s + fileDo.tiqu(i)).renameTo(new File(s + fileDo.tiqu(i + 1)));
                 }
+                if (new File(s + fileDo.tiqu(i) + ".mcmeta").exists()) {
+                    new File(s + fileDo.tiqu(i) + ".mcmeta").renameTo(new File(s + fileDo.tiqu(i + 1) + ".mcmeta"));
+                }
             }
             file.renameTo(new File(path+"block"));
         }
@@ -66,6 +69,9 @@ public class Data implements Runnable{
             for (int i = 1; i <= hangshu; i+=2){
                 if (new File(s + fileDo.tiqu(i)).exists()) {
                     new File(s + fileDo.tiqu(i)).renameTo(new File(s + fileDo.tiqu(i + 1)));
+                }
+                if (new File(s + fileDo.tiqu(i) + ".mcmeta").exists()) {
+                    new File(s + fileDo.tiqu(i) + ".mcmeta").renameTo(new File(s + fileDo.tiqu(i + 1) + ".mcmeta"));
                 }
             }
             file.renameTo(new File(path+"item"));
@@ -125,6 +131,9 @@ public class Data implements Runnable{
                 if (new File(s + fileDo.tiqu(i+1)).exists()) {
                     new File(s + fileDo.tiqu(i+1)).renameTo(new File(s + fileDo.tiqu(i)));
                 }
+                if (new File(s + fileDo.tiqu(i+1) + ".mcmeta").exists()) {
+                    new File(s + fileDo.tiqu(i+1)+ ".mcmeta").renameTo(new File(s + fileDo.tiqu(i)+ ".mcmeta"));
+                }
             }
             file.renameTo(new File(path+"blocks"));
         }
@@ -149,6 +158,9 @@ public class Data implements Runnable{
             for (int i = 1; i <= hangshu; i+=2){
                 if (new File(s + fileDo.tiqu(i+1)).exists()) {
                     new File(s + fileDo.tiqu(i+1)).renameTo(new File(s + fileDo.tiqu(i + 1)));
+                }
+                if (new File(s + fileDo.tiqu(i+1) + ".mcmeta").exists()) {
+                    new File(s + fileDo.tiqu(i+1)+ ".mcmeta").renameTo(new File(s + fileDo.tiqu(i)+ ".mcmeta"));
                 }
             }
             file.renameTo(new File(path+"items"));
